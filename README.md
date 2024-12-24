@@ -25,13 +25,13 @@ func main() {
 	log.SetPrefix("greetings: ")
 	log.SetFlags(0)
 
-	if msg, err := greetings.Hello("Valentina Werle"); err != nil {
+	if msg, err := greetings.Hello("Javier Mieli"); err != nil {
 		log.Fatal(err)
 	} else {
 		fmt.Println(msg)
 	}
 
-	var names = []string{"Lautaro", "Melania", "Carol", "Valentina"}
+	var names = []string{"Ana", "Milagros", "Agustina", "Valentina"}
 
 	if msg, err := greetings.Hellos(names); err != nil {
 		log.Fatal(err)
